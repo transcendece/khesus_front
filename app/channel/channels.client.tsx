@@ -43,8 +43,6 @@ function ChannelChat() {
     });
   }, [dispatch]);
   
-
-
   useEffect (() => {
       if (!socket.hasListeners("channelMessage")) {
         socket.on("channelMessage", handleChannelMessage);
