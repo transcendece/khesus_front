@@ -103,7 +103,7 @@ export default function chat() {
                 {
                   avatar: conversation.avatar,
                   content: newMessage,
-                  sender: conversation.owner,
+                  sender: conversation.ownerId,
                   isOwner: true,
                 },
               ],
